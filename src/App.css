@@ -1,38 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
 .App {
   text-align: center;
+  background-color: #FFFF;
+  font-family: 'Poppins', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a .nav-link{
+  
+  font-weight: 700 !important;
+  color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sett21 {
+  font-size: 21px;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-btn {
+  border-radius: 10px !important;
+  color: rgba(39, 121, 43, 1)!important;
+  background-color: white !important;
+  font-weight: 700 !important;
+  border-color: white !important;
+}
+
+.titolo {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.firstRow {
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+}
+
+.tratteggio {
+
+  position: absolute;
+  left: 0%;
+  top: 10vh;
+}
+
+.div-titolo {
+  margin-top: 25vh;
+  padding: 5%;
+  margin-left: 3vw;
+  padding-right: 0%;
+}
+
+.sottotitolo {
+
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(33, 150, 83, 1);
+  margin-top: -15px;
+}
+
+.green-btn {
+
+  background-color: rgba(33, 150, 83, 1) !important;
+  color: white !important;
+  font-size: 19px !important;
+  font-weight: 600 !important;
+  width: 279px;
+  border-color: rgba(33, 150, 83, 1) !important;
+  border-radius: 0px !important;
+  height: 65px !important;
+  margin-top: 20px;
+}
+
+.sett36 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.sei20v {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(33, 150, 83, 1);
+}
+.sei20 {
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+.testo {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.yellow-row {
+ background-image: url("https://i.ibb.co/7rj7zSh/Rectangle-13.png" );
+ padding: 50px;
+ padding-top: 200px;
+
+}
+
+.mrk-cards {
+  border-radius: 19px !important;
+  margin-right: 2vw;
+}
+
+.produttori {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(33, 150, 83, 1);
+}
+
+.btn-black {
+  background-color: #0B190D !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  width: 353px;
+  height: 65px;
+  border-color:  #0B190D !important;
+  border-radius: 0% !important;
+}
+
+.green-row {
+  background-color: rgba(33, 150, 83, 1);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.figura1 {
+  position: absolute;
+  left: 0px;
+  top: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.figura2 {
+
+  position: absolute;
+  bottom: -17px;
+  left: 20vw;
+}
+
+.sopraFooter {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-color {
+  background-color: rgba(16, 41, 20, 1);
+}
+
+.carousel-indicators {
+
+  display: none;
 }
