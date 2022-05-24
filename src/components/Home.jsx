@@ -150,14 +150,7 @@ export default function Home() {
             </Col>
             <Col xs={0} md={6} className="sopraFooter ">
               <div className="img-footer"></div>
-            {/* <img
-            style={{position: "absolute", right: "0px", width: "100%", bottom: "-90px"}}
            
-            src="https://i.ibb.co/51FB1kb/Group-28-2x.png"
-            alt="Group-5"
-            border="0"
-            
-          /> */}
             </Col>
           </Row>
         </Container>
